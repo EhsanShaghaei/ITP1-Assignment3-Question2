@@ -4,7 +4,7 @@ public class Person {
     protected String firstName;
     protected String secondName;
     protected Integer personId;
-    private   Integer ID;
+    private   static Integer ID;
     public Person(){};
     public Person (String name,String family,Integer pId,Integer ID){
         this.firstName = name;
